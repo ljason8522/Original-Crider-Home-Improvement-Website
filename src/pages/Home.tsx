@@ -64,16 +64,16 @@ function Home() {
 
               <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-200 animate-slide-up animation-delay-600">
                 <div className="text-center">
-                  <AnimatedCounter end={8} />
-                  <div className="text-gray-600 font-medium">Completed Permits</div>
+                  <AnimatedCounter end={10} suffix="+" />
+                  <div className="text-gray-600 font-medium">Permitted Projects</div>
+                </div>
+                <div className="text-center">
+                  <AnimatedCounter end={100} suffix="%" />
+                  <div className="text-gray-600 font-medium">Client Satisfaction</div>
                 </div>
                 <div className="text-center">
                   <AnimatedCounter end={91} />
                   <div className="text-gray-600 font-medium">BuildZoom Score</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">100%</div>
-                  <div className="text-gray-600 font-medium">Code Compliant</div>
                 </div>
               </div>
             </div>
@@ -120,32 +120,32 @@ function Home() {
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Shield className="h-8 w-8 text-blue-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Basement Finishing</h3>
-              <p className="text-gray-600 mb-4">Wall framing, insulation, electrical rough-ins, and media room builds.</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Basement Remodeling</h3>
+              <p className="text-gray-600 mb-4">Complete basement transformations with professional framing and finishing.</p>
             </div>
 
             <div className="text-center p-6 bg-gradient-to-br from-green-50 to-white rounded-xl border border-green-100 shadow-sm">
               <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="h-8 w-8 text-green-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Exterior Improvements</h3>
-              <p className="text-gray-600 mb-4">Full siding replacement with insulation, concrete sidewalks, and corner repairs.</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Siding Installation</h3>
+              <p className="text-gray-600 mb-4">Professional siding installation and replacement for complete exterior protection.</p>
             </div>
 
             <div className="text-center p-6 bg-gradient-to-br from-purple-50 to-white rounded-xl border border-purple-100 shadow-sm">
               <div className="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Clock className="h-8 w-8 text-purple-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Bathroom Remodeling</h3>
-              <p className="text-gray-600 mb-4">Tile replacement, bathtub reglazing, vanity upgrades, and floor resupport.</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Kitchen Remodeling</h3>
+              <p className="text-gray-600 mb-4">Complete kitchen renovations that combine functionality with stunning design.</p>
             </div>
 
             <div className="text-center p-6 bg-gradient-to-br from-orange-50 to-white rounded-xl border border-orange-100 shadow-sm">
               <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Award className="h-8 w-8 text-orange-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Roofing & Structural</h3>
-              <p className="text-gray-600 mb-4">Fire-damaged roof system replacements, tear-offs, and structural repairs to code.</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Roofing Services</h3>
+              <p className="text-gray-600 mb-4">Expert roof repair and replacement services, including emergency restoration.</p>
             </div>
           </div>
 
@@ -238,16 +238,16 @@ function Home() {
               <div className="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Users className="h-10 w-10 text-green-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Verified Permit History</h3>
-              <p className="text-gray-600">8 completed permits with 100% code compliance across Rock Island and Moline jurisdictions.</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Expert Craftsmanship</h3>
+              <p className="text-gray-600">Years of experience delivering high-quality workmanship on every project, with all work completed to code specifications.</p>
             </div>
 
             <div className="text-center p-8 bg-gradient-to-br from-purple-50 to-white rounded-xl shadow-lg border border-purple-100">
               <div className="bg-purple-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Clock className="h-10 w-10 text-purple-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Transparent Practices</h3>
-              <p className="text-gray-600">Verified customer review confirms honest work practices and reliable service across the Quad Cities area.</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Code Compliant</h3>
+              <p className="text-gray-600">Every project meets or exceeds local building codes with proper permits and inspections for your safety and peace of mind.</p>
             </div>
           </div>
         </div>
