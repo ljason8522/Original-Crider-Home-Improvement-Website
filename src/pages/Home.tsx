@@ -64,16 +64,16 @@ function Home() {
 
               <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-200 animate-slide-up animation-delay-600">
                 <div className="text-center">
-                  <AnimatedCounter end={8} suffix="+" />
+                  <AnimatedCounter end={8} />
                   <div className="text-gray-600 font-medium">Completed Permits</div>
-                </div>
-                <div className="text-center">
-                  <AnimatedCounter end={100} suffix="%" />
-                  <div className="text-gray-600 font-medium">Client Satisfaction</div>
                 </div>
                 <div className="text-center">
                   <AnimatedCounter end={91} />
                   <div className="text-gray-600 font-medium">BuildZoom Score</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-blue-600 mb-2">100%</div>
+                  <div className="text-gray-600 font-medium">Code Compliant</div>
                 </div>
               </div>
             </div>
@@ -129,7 +129,7 @@ function Home() {
                 <Users className="h-8 w-8 text-green-600" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Exterior Improvements</h3>
-              <p className="text-gray-600 mb-4">Siding replacement with insulation, concrete sidewalks, and corner repairs.</p>
+              <p className="text-gray-600 mb-4">Full siding replacement with insulation, concrete sidewalks, and corner repairs.</p>
             </div>
 
             <div className="text-center p-6 bg-gradient-to-br from-purple-50 to-white rounded-xl border border-purple-100 shadow-sm">
@@ -144,8 +144,8 @@ function Home() {
               <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Award className="h-8 w-8 text-orange-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Roofing Services</h3>
-              <p className="text-gray-600 mb-4">Fire damage roof restoration, tear-offs, and structural repairs to code.</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Roofing & Structural</h3>
+              <p className="text-gray-600 mb-4">Fire-damaged roof system replacements, tear-offs, and structural repairs to code.</p>
             </div>
           </div>
 
@@ -238,7 +238,7 @@ function Home() {
               <div className="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Users className="h-10 w-10 text-green-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Verified Work History</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Verified Permit History</h3>
               <p className="text-gray-600">8 completed permits with 100% code compliance across Rock Island and Moline jurisdictions.</p>
             </div>
 
@@ -246,8 +246,8 @@ function Home() {
               <div className="bg-purple-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Clock className="h-10 w-10 text-purple-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Honest & Reliable</h3>
-              <p className="text-gray-600">Real customer feedback confirms honest work practices and reliable service across the Quad Cities area.</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Transparent Practices</h3>
+              <p className="text-gray-600">Verified customer review confirms honest work practices and reliable service across the Quad Cities area.</p>
             </div>
           </div>
         </div>
