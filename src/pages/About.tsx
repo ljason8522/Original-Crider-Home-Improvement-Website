@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Star, Award, Shield, Users, Clock, CheckCircle, MapPin } from 'lucide-react';
-import WhyChooseUsSection from '../components/WhyChooseUsSection';
+import { Star, Award, Shield, Users, Clock, CheckCircle, MapPin, Phone, Mail } from 'lucide-react';
 
 function About() {
   const handleNavClick = () => {
@@ -100,7 +99,76 @@ function About() {
       </section>
 
       {/* Why Choose Us */}
-      <WhyChooseUsSection />
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose Us</h2>
+            <p className="text-xl text-gray-600">What sets us apart from other contractors</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="text-center p-8 bg-white rounded-xl shadow-sm border border-gray-200">
+              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Shield className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">BuildZoom Verified</h3>
+              <p className="text-gray-600">
+                BuildZoom Score of 91, ranking in the top 37% of 65,686 Illinois contractors with verified permit history and transparent business practices.
+              </p>
+            </div>
+
+            <div className="text-center p-8 bg-white rounded-xl shadow-sm border border-gray-200">
+              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Users className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Expert Craftsmanship</h3>
+              <p className="text-gray-600">
+                Years of experience delivering high-quality workmanship on every project, with all work completed to code specifications and proper permits.
+              </p>
+            </div>
+
+            <div className="text-center p-8 bg-white rounded-xl shadow-sm border border-gray-200">
+              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Clock className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Honest & Reliable</h3>
+              <p className="text-gray-600">
+                We do what we say we'll do, when we say we'll do it. No surprises, no hidden costs, just honest communication and reliable service.
+              </p>
+            </div>
+
+            <div className="text-center p-8 bg-white rounded-xl shadow-sm border border-gray-200">
+              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <CheckCircle className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Code Compliant</h3>
+              <p className="text-gray-600">
+                Every project meets or exceeds local building codes with proper permits and inspections for your safety and peace of mind.
+              </p>
+            </div>
+
+            <div className="text-center p-8 bg-white rounded-xl shadow-sm border border-gray-200">
+              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <MapPin className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Local Expertise</h3>
+              <p className="text-gray-600">
+                Deep knowledge of local building codes, permit requirements, and weather considerations specific to the Quad Cities area.
+              </p>
+            </div>
+
+            <div className="text-center p-8 bg-white rounded-xl shadow-sm border border-gray-200">
+              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Award className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Proven Track Record</h3>
+              <p className="text-gray-600">
+                Extensive portfolio of successful projects with satisfied customers and a 5-star rating based on real client experiences.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Testimonials */}
       <section className="py-20 bg-white">
@@ -112,7 +180,7 @@ function About() {
 
           <div className="max-w-4xl mx-auto">
             {testimonials.map((testimonial, index) => (
-              <div key={index} className="bg-blue-50 p-8 rounded-2xl shadow-sm border border-blue-100">
+              <div key={index} className="bg-gradient-to-r from-blue-50 to-white p-8 rounded-2xl shadow-lg border border-blue-100">
                 <div className="flex items-center justify-between mb-6">
                   <div className="flex items-center space-x-4">
                     <div className="flex items-center space-x-1">
