@@ -109,6 +109,11 @@ function Gallery() {
                     <div>
                       <h3 className="text-xl font-semibold text-gray-900 mb-2">{pair.before.title}</h3>
                       <p className="text-gray-600">{pair.before.description}</p>
+                      {pair.before.workType && (
+                        <div className="mt-3 inline-block bg-blue-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
+                          {pair.before.workType}
+                        </div>
+                      )}
                     </div>
                   </div>
 
@@ -133,6 +138,11 @@ function Gallery() {
                     <div>
                       <h3 className="text-xl font-semibold text-gray-900 mb-2">{pair.after.title}</h3>
                       <p className="text-gray-600">{pair.after.description}</p>
+                      {pair.after.workType && (
+                        <div className="mt-3 inline-block bg-blue-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
+                          {pair.after.workType}
+                        </div>
+                      )}
                     </div>
                   </div>
                 </div>
@@ -301,6 +311,12 @@ function Gallery() {
                       <span className="font-medium mr-2">Category:</span>
                       <span>{selectedImage.category}</span>
                     </div>
+                    {selectedImage.workType && (
+                      <div className="flex items-center text-gray-600">
+                        <span className="font-medium mr-2">Work Type:</span>
+                        <span>{selectedImage.workType}</span>
+                      </div>
+                    )}
                     {selectedImage.location && (
                       <div className="flex items-center text-gray-600">
                         <MapPin className="h-4 w-4 mr-2" />
@@ -331,6 +347,19 @@ function Gallery() {
                       <Award className="h-4 w-4 mr-2" />
                       <span>BuildZoom Verified</span>
                     </div>
+                    {selectedImage.technicalDetails && selectedImage.technicalDetails.length > 0 && (
+                      <div className="mt-4">
+                        <h4 className="font-medium text-gray-900 mb-2">Technical Details:</h4>
+                        <ul className="space-y-1">
+                          {selectedImage.technicalDetails.map((detail, index) => (
+                            <li key={index} className="flex items-start text-sm text-gray-600">
+                              <div className="w-1.5 h-1.5 bg-blue-600 rounded-full mt-2 mr-2 flex-shrink-0"></div>
+                              <span>{detail}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>

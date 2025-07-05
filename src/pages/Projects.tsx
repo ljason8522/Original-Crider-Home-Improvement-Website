@@ -13,7 +13,7 @@ function Projects() {
       location: "718 17th St, Rock Island, IL",
       value: "$17,000",
       image: "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800",
-      description: "Full house remodel including frame walls and resupport flooring all to code.",
+      description: "Complete house remodel including frame walls and resupport flooring all to code specifications. This comprehensive project involved structural improvements, electrical updates, and professional finishing work throughout the home.",
       date: "December 2021",
       category: "Full Remodel",
       gradient: "from-blue-500 to-blue-700",
@@ -22,7 +22,8 @@ function Projects() {
         "Complete structural framing",
         "Floor support reinforcement", 
         "Code-compliant electrical updates",
-        "Professional finishing work"
+        "Professional finishing work",
+        "Proper permits and inspections"
       ]
     },
     {
@@ -30,7 +31,7 @@ function Projects() {
       location: "529 31st St, Rock Island, IL",
       value: "$10,000",
       image: "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800",
-      description: "North and south landings and stairs on new footings all to code.",
+      description: "Professional construction of north and south landings and stairs on new concrete footings, all completed to code specifications. This project required careful structural planning and precise execution for safety and durability.",
       date: "September 2021",
       category: "Construction",
       gradient: "from-green-500 to-green-700",
@@ -39,7 +40,8 @@ function Projects() {
         "New concrete footings",
         "Custom stair construction",
         "Safety railings and balusters",
-        "Weather-resistant materials"
+        "Weather-resistant materials",
+        "Code-compliant design and installation"
       ]
     },
     {
@@ -47,7 +49,7 @@ function Projects() {
       location: "1405 7th Ave, Rock Island, IL",
       value: "$6,000",
       image: "https://images.pexels.com/photos/209296/pexels-photo-209296.jpeg?auto=compress&cs=tinysrgb&w=800",
-      description: "Remove and replace fire damaged roof system according to structural report all to code.",
+      description: "Complete removal and replacement of fire damaged roof system according to structural engineer's report, all work completed to code specifications. This restoration project required coordination with insurance and careful adherence to structural requirements.",
       date: "January 2021",
       category: "Restoration",
       gradient: "from-red-500 to-red-700",
@@ -56,7 +58,8 @@ function Projects() {
         "Complete roof system removal",
         "Structural damage assessment",
         "Code-compliant replacement",
-        "Insurance coordination"
+        "Insurance coordination",
+        "Structural engineer report compliance"
       ]
     },
     {
@@ -64,7 +67,7 @@ function Projects() {
       location: "801 5th Ave, Rock Island, IL", 
       value: "$2,800",
       image: "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800",
-      description: "Tear off and reside duplex to code. Use fanfold before siding.",
+      description: "Complete tear-off and re-siding of duplex property to code specifications, including fanfold insulation installation before new siding application. This project improved both appearance and energy efficiency.",
       date: "October 2020",
       category: "Siding",
       gradient: "from-purple-500 to-purple-700",
@@ -73,7 +76,8 @@ function Projects() {
         "Complete siding removal",
         "Fanfold insulation installation",
         "New siding application",
-        "Trim and finishing work"
+        "Trim and finishing work",
+        "Energy efficiency improvements"
       ]
     },
     {
@@ -81,7 +85,7 @@ function Projects() {
       location: "1110 4th St, Rock Island, IL",
       value: "$500",
       image: "https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=800",
-      description: "Installing siding and replacing corner pieces. Repair single pane windows.",
+      description: "Professional installation of siding squares and replacement of corner pieces on house and garage. Included repair of single pane windows for improved weatherproofing and appearance.",
       date: "August 2021",
       category: "Repair",
       gradient: "from-orange-500 to-orange-700",
@@ -90,7 +94,8 @@ function Projects() {
         "Partial siding replacement",
         "Corner piece installation",
         "Window glass replacement",
-        "Weatherproofing"
+        "Weatherproofing improvements",
+        "Garage and house exterior work"
       ]
     },
     {
@@ -98,7 +103,7 @@ function Projects() {
       location: "2414 23rd Ave, Moline, IL",
       value: "Maintenance",
       image: "https://images.pexels.com/photos/1396125/pexels-photo-1396125.jpeg?auto=compress&cs=tinysrgb&w=800",
-      description: "Residential maintenance and repair - Siding replacement and updates.",
+      description: "Comprehensive residential maintenance and repair work focusing on siding replacement and updates. This preventive maintenance project helped extend the life of the home's exterior and maintain its appearance.",
       date: "June 2021",
       category: "Maintenance",
       gradient: "from-teal-500 to-teal-700",
@@ -107,7 +112,8 @@ function Projects() {
         "Siding inspection and repair",
         "Weather damage restoration",
         "Preventive maintenance",
-        "Quality materials used"
+        "Quality materials and workmanship",
+        "Long-term protection focus"
       ]
     }
   ];
