@@ -83,6 +83,13 @@ function Header() {
               About
             </Link>
             <Link 
+              to="/gallery" 
+              onClick={handleNavClick}
+              className={`transition-colors font-medium ${isActive('/gallery') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'}`}
+            >
+              Gallery
+            </Link>
+            <Link 
               to="/contact" 
               onClick={handleNavClick}
               className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium"
@@ -138,6 +145,13 @@ function Header() {
                 className={`transition-colors font-medium ${isActive('/about') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'}`}
               >
                 About
+              </Link>
+              <Link 
+                to="/gallery" 
+                onClick={handleNavClick}
+                className={`transition-colors font-medium ${isActive('/gallery') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'}`}
+              >
+                Gallery
               </Link>
               <Link 
                 to="/contact" 
